@@ -25,7 +25,7 @@ export default function ProjectSobre() {
   const navigate = useNavigate();
 
   const adicionarCarrinho = (cafe: CafeInterface) => {
-    const cofeQnt = cart[cafe.id] || 0;
+    // const cofeQnt = cart[cafe.id] || 0;
     if (cart[cafe.id] > 0) {
       //   alert(`🛒 ${cofeQnt}x ${cafe.nome} adicionado(s) ao carrinho!`);
 

@@ -30,7 +30,6 @@ interface FormularioProps {
 export default function Formulario({
   onSubmit,
   error,
-  loading,
   mensagem,
 }: FormularioProps) {
   const schema = yup.object().shape({
