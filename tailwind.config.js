@@ -1,0 +1,30 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    screens: {
+      xs: "480px",
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1536px",
+    },
+
+    extend: {
+      colors: {
+        primary: "#2563eb",
+        secondary: "#9333ea",
+        accent: "#f59e0b",
+        background: "#f9fafb",
+      },
+      fontFamily: {
+        sans: ["Inter", "system-ui", "sans-serif"],
+      },
+      boxShadow: {
+        soft: "0 4px 12px rgba(0, 0, 0, 0.08)",
+      },
+    },
+  },
+  plugins: [],
+};
